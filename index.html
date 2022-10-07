@@ -24,12 +24,13 @@
           <button class="header-nav-button">Проекты</button>
         </nav>
 
-        <div class="header-h2">Сергей Толмачев</div>
+        <div class="header-h2">Автор: Сергей Толмачев</div>
       </div>
     </header>
 
     <main>
-      <section>
+      <div class="main-div">
+      <section class="main-section">
         <article class="main-article">
           <div class="main-div-h4">Пост блога №3</div>
           <!-- <h4 class="main-h4">Завершение</h4> -->
@@ -53,6 +54,7 @@
           <div class="main-div-h4">Начало блога</div>
           <!-- <h4 class="main-h4">Начало блога</h4> -->
           <pre class="main-pre">
+
 Видеокарты все еще стоят слишком дорого, чтобы переставать покупать их на озоне.
 
 ░░░░░░░░░░░░░░░░░░░░░░█▄░░░░░░░░░░░░░░░
@@ -81,23 +83,29 @@ if цена_видеокарты > 50000:
         </article>
       </section>
 
-      <aside>
-        <h3>nickname: <i>ssseergey</i></h3>
-        <img id="logo" src="pictures/avatar.png" alt="loading">
-        <pre>
-          Я современное искусство не понимаю потому,
-          что там все сложно и такое,
-          я сам могу нарисовать. <sub>© kvatanastini</sub>
-        </pre>
-      </aside>
+      <aside class="main-aside">
+        <div class="aside-div">
+          <img class="aside-img" src="pictures/logo.png" alt="loading">
+          <h3 class="aside-h3">Никнейм: <i>ssseergey</i></h3>
+        </div>
+        <pre class="aside-pre">
 
+Я современное искусство не понимаю потому,
+что там все сложно и такое,
+я сам могу нарисовать. <sub>© kvatanastini</sub>
+        </pre>
+        <div class="aside-div">
+          <p class="aside-p"><b>Формула успеха:</b> E = mc<sup>2</sup></p>
+        </div>
+      </aside>
+      </div>
     </main>
 
     <footer>
-      <b>Моя контактная информация</b>
-      github: ssseergey.github.io
       <br>
-      Формула успеха: Я не задаю темп. <sup>Я стремлюсь обогнать его.</sup>
+      <b>Моя контактная информация: </b><a href="ssseergey.github.io">github-page</a>
+      <br>
+      <br>
     </footer>
   </body>
 </html>
