@@ -9,7 +9,7 @@ g5 #bd6a33
 /* * {
     border: 1px solid magenta;
     display: none;
-/* } */ */
+} */
 
 body {
     background-color: #ffffff;
@@ -214,5 +214,4 @@ header {
 footer {
     margin: 0px 0px 0px 0px;
     padding-left: 10px;
-    font-size: 160%;
 }
