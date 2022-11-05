@@ -3,9 +3,12 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <meta name="keywords" content="Блог, программирование">
     <meta name="description" content="Блог о программировании">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 1279px), (max-height: 719px)" href="/css/720p.css">
+    <link rel="stylesheet" media="screen and (max-width: 479px)" href="/css/360p.css">
 
     <title>Веб программирование</title>
   </head>
@@ -13,7 +16,9 @@
   <body>
     <header>
       <div class="header-div">
-        <img class="header-img" id="logo" src="pictures/logo.png" alt="loading">
+        <img class="header-img" src="pictures/logo.png" alt="loading">
+        <img class="header-img-absolute" src="pictures/butterfly.png" alt="loading">
+
         <h1 class="header-h1">Блог</h1>
       </div>
       <div class="header-div-nav">
@@ -33,7 +38,6 @@
       <section class="main-section">
         <article class="main-article">
           <div class="main-div-h4">Пост блога №3</div>
-          <!-- <h4 class="main-h4">Завершение</h4> -->
           <p class="main-p">Завершаю блог.</p>
             <ul class="main-ul">
               <li>Ура у меня есть список</li>
@@ -47,12 +51,10 @@
         </article>
         <article class="main-article">
           <div class="main-div-h4">Пост блога №2</div>
-          <!-- <h4 class="main-h4">Пост блога №2</h4> -->
           <p class="main-p">Как хорошо, что <del>все</del> мы здесь сегодня собрались.</p>
         </article>
         <article class="main-article">
           <div class="main-div-h4">Начало блога</div>
-          <!-- <h4 class="main-h4">Начало блога</h4> -->
           <pre class="main-pre">
 
 Видеокарты все еще стоят слишком дорого, чтобы переставать покупать их на озоне.
@@ -89,13 +91,20 @@ if цена_видеокарты > 50000:
           <h3 class="aside-h3">Никнейм: <i>ssseergey</i></h3>
         </div>
         <pre class="aside-pre">
-
-Я современное искусство не понимаю потому,
-что там все сложно и такое,
-я сам могу нарисовать. <sub>© kvatanastini</sub>
+Я современное искусство не понимаю потому,что там все сложно и такое,я сам могу нарисовать.<sub>© kvatanastini</sub>
         </pre>
         <div class="aside-div">
-          <p class="aside-p"><b>Формула успеха:</b> E = mc<sup>2</sup></p>
+          <p class="aside-p"><b>Формула успеха:</b>E = mc<sup>2</sup></p>
+          <div class="aside-table">
+            <div class="aside-table-header">One</div>
+            <div class="aside-table-header">Two</div>
+            <div class="aside-table-even">Three</div>
+            <div class="aside-table-even">Four</div>
+            <div class="aside-table-odd">Five</div>
+            <div class="aside-table-odd">Six</div>
+            <div class="aside-table-even">Seven</div>
+            <div class="aside-table-even">Eight</div>
+          </div>
         </div>
       </aside>
       </div>
