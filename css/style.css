@@ -211,6 +211,21 @@ header {
     background-color: green;
 }
 
+.constructor-li {
+    width: 50%;
+}
+
+.form-div {
+    font-size: 200%;
+    padding-left: 10px;
+    flex-direction: row;
+}
+
+#list_form {
+    display: flex;
+    flex-direction: row;
+}
+
 footer {
     margin: 0px 0px 0px 0px;
     padding-left: 10px;

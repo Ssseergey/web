@@ -1,7 +1,7 @@
 header =
 `<div class="header-div">
   <img class="header-img" src="../pictures/logo.png" alt="loading">
-  <img class="header-img-absolute" src="../pictures/butterfly.png" alt="loading">
+  <!-- <img class="header-img-absolute" src="../pictures/butterfly.png" alt="loading"> --!>
 
   <h1 class="header-h1">Блог</h1>
 </div>
@@ -9,7 +9,7 @@ header =
   <nav class="header-nav">
     <button id="index.html" class="header-nav-button" onclick="window.location.href='index.html'">Главная</button>
     <button id="achievements.html" class="header-nav-button" onclick="window.location.href='achievements.html'">Достижения</button>
-    <button id="stories.html" class="header-nav-button" onclick="window.location.href='stories.html'">Смешные истории</button>
+    <button id="webform.html" class="header-nav-button" onclick="window.location.href='webform.html'">Webform</button>
     <button id="projects.html" class="header-nav-button" onclick="window.location.href='projects.html'">Проекты</button>
   </nav>
 
