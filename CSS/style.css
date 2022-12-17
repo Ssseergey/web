@@ -213,6 +213,7 @@ header {
 
 .constructor-li {
     width: 50%;
+    height: 50%;
 }
 
 .form-div {
@@ -224,6 +225,14 @@ header {
 #list_form {
     display: flex;
     flex-direction: row;
+}
+
+option {
+    background-color: orange;
+}
+
+.button {
+    background-color: #3180db;
 }
 
 footer {

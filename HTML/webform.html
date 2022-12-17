@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head id="head">
+    <script src="../JS/loadtime.js"></script>
+    <script src="../JS/head.js"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <script src="../JS/header.js"></script>
+    </header>
+    <main>
+      <div><br></div>
+      <form id="list_form" action="" method="get">
+        <div>
+        <input class="button" id="list_button" type="submit" value="Добавить" onclick="addValue()">
+        <input class="input" id="list_input" type="text" name="value" placeholder="Task to do..">
+        <input class="button" id="list_button_delete" type="submit" value="Удалить выбранный" onclick="removeValue()">
+        </div>
+      </form>
+      <select id="constructor" class="constructor-li" multiple></select>
+    </main>
+    <footer id="footer">
+      <script src="../JS/todolist.js"></script>
+      <script src="../JS/footer.js"></script>
+    </footer>
+  </body>
+</html>

@@ -2,7 +2,7 @@ let list = [];
 
 function removeValue() {
     let select = document.getElementById("constructor");
-    list.splice(select.selectedIndex, 1);
+    list.splice(list.length - select.selectedIndex - 1, 1);
     updateLocalStorage(list);
 }
 

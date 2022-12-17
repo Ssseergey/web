@@ -2,7 +2,7 @@ footer =
 `
 <footer>
     <br>
-    <b>Моя контактная информация: </b><a href="https://ssseergey.github.io/web/">github-page</a>
+    <b>Моя контактная информация: </b><a href="https://ssseergey.github.io/web/HTML">github-page</a>
     <br>
     <br>
     <span id="loadtime"></span>
